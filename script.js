@@ -38,8 +38,7 @@ function showNewQuote() {
     // Set Quote, Hide Loader
     quoteText.textContent = quote.text;
 
-    setTimeout(() => {removeLoadingSpinner();}, 500);
-    // removeLoadingSpinner();
+    removeLoadingSpinner();
     
   }
   
